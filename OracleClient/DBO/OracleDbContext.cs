@@ -26,10 +26,10 @@ namespace OracleClient.DBO
         public OracleDbContext()
         {
             //string x = "DATA SOURCE=(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=172.17.8.105)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=pran)));PASSWORD=9552312;USER ID=RFL;Unicode=True;pooling=False;";
-            string x = "DATA SOURCE=(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=172.17.4.199)(PORT=9107))(CONNECT_DATA=(SERVICE_NAME=pran)));PASSWORD=picnice2021Imran;USER ID=PICNIC;pooling=False;";
+            string x = "DATA SOURCE=(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=**)(PORT=**))(CONNECT_DATA=(SERVICE_NAME=**)));PASSWORD=picnice2021Imran;USER ID=PICNIC;pooling=False;";
             PICNIC = x;
 
-            string x1 = "DATA SOURCE=(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=172.17.4.199)(PORT=9107))(CONNECT_DATA=(SERVICE_NAME=pran)));PASSWORD=YA;USER ID=ya;pooling=False;";
+            string x1 = "DATA SOURCE=(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=**)(PORT=**))(CONNECT_DATA=(SERVICE_NAME=**)));PASSWORD=YA;USER ID=ya;pooling=False;";
             YA = x1;
 
 
