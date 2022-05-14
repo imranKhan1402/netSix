@@ -12,7 +12,6 @@ namespace TMSV6.Controllers
     {
         IUserManager _iuserManager = new UserManager();
         // GET api/<controller>
-        //get All
         [HttpGet]
         public string GetAllEmployee()
         {
