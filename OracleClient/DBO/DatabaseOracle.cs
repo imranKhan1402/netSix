@@ -15,12 +15,12 @@ namespace OracleClient.DBO
         {
             if (ApplicationId.Equals(1))
             {
-                string PICNIC = "DATA SOURCE=(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=172.17.4.199)(PORT=9107))(CONNECT_DATA=(SERVICE_NAME=pran)));PASSWORD=picnice2021Imran;USER ID=PICNIC;pooling=False;";
+                string PICNIC = "";
                 return PICNIC;
             }
             else if (ApplicationId.Equals(2))
             {
-                string YA = "DATA SOURCE=(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=172.17.4.199)(PORT=9107))(CONNECT_DATA=(SERVICE_NAME=pran)));PASSWORD=YA;USER ID=ya;pooling=False;";
+                string YA = "";
                 return YA;
             }
             return "";
